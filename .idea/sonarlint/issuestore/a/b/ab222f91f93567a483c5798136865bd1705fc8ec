@@ -1,10 +1,4 @@
 
-¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Øùûˆùÿÿÿÿ8¸­à©ð1J$9d99bda1-9e79-4a31-86d3-7ccfd0d83f4d
-¡
-java:S1450"YRemove the "targetBlue" field and declare it as a local variable in the relevant methods.(æå…æþÿÿÿÿ8¸­à©ð1J$04c3aa8d-f1ee-4139-be94-52a0da03fa96
-¢
-java:S1450"ZRemove the "targetGreen" field and declare it as a local variable in the relevant methods.(“ñÅèùÿÿÿÿ8¸­à©ð1J$21207b8b-eb68-4e4b-ba97-8478552ab7f7
- 
-java:S1450"XRemove the "targetRed" field and declare it as a local variable in the relevant methods.(÷öªÀýÿÿÿÿ8¸­à©ð1J$9edc944c-bfb2-4a2e-8616-9a1a07a2590e
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Øùûˆùÿÿÿÿ8÷»†ªð1J$1aebc2c5-a7c5-4dbf-ae5f-0dc53421b526
 a
-java:S2119¶"Save and re-use this "Random".(¼ÝÅf8Ç­à©ð1J$541d7f4e-b719-4497-b5f9-299a7558142b
+java:S2119·"Save and re-use this "Random".(¼ÝÅf8›¼†ªð1J$948139fb-07e1-49a8-bdb2-be284a067ac3

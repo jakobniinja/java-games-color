@@ -11,6 +11,7 @@ import java.util.Random;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.UIManager;
 import javax.swing.WindowConstants;
@@ -150,7 +151,7 @@ public class GuessMyColor extends JFrame {
   }
 
   private void increaseGreen() {
-    if (green <= 250) {
+    if (green <= 240) {
       green += 15;
     }
     updateColorSample();
@@ -165,7 +166,7 @@ public class GuessMyColor extends JFrame {
 
 
   private void increaseBlue() {
-    if (blue <= 250) {
+    if (blue <= 240) {
       blue += 15;
     }
     updateColorSample();
@@ -190,6 +191,11 @@ public class GuessMyColor extends JFrame {
   public void updateColorSample() {
     Color color = new Color(red, green, blue);
     samplePanel.setBackground(color);
+
+    if (red == targetRed && blue == targetBlue && green == targetGreen) {
+      String message = "Congratulations! \n " + "rgb (" + targetRed + "," + targetRed + "," + targetBlue + ")";
+      JOptionPane.showMessageDialog(this, message);
+    }
   }
 
   public static void main(String[] args) {
